@@ -1,0 +1,18 @@
+EMERGENCY_DAILY_PLAYER_V1_5_DECISION_LAYER_AUDIT
+
+Validation performed:
+- Python compile check passed for app.py, audit_engine.py, daily_ladder_engine.py.
+- 06/19 sample smoke run completed.
+- Profiles loaded: 6
+- Step2 rows: 1200
+- Support major nonzero Step2 rows: 1200
+- Merged candidate rows: 50
+- Decision-layer outputs produced:
+  - 07_DECISION_LAYER_STRATEGY_SUMMARY.csv
+  - 07_DECISION_LAYER_STRATEGY_SUMMARY.txt
+  - 07_DECISION_LAYER_STRATEGIES/*.csv
+
+Notes:
+- All 6 lanes are retained.
+- Stream-overlap remains a priority/audit layer, not a hard deletion gate.
+- The merged list is not called final playlist.
